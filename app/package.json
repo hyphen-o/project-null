@@ -6,7 +6,8 @@
     "lint:check": "next lint",
     "format": "prettier --write --ignore-path .gitignore './**/*.{js,jsx,ts,tsx,json}'",
     "format:check": "prettier --check './**/*.{js,jsx,ts,tsx,json}'",
-    "check": "yarn lint:check && yarn format:check"
+    "check": "yarn lint:check && yarn format:check",
+    "build": "next build"
   },
   "version": "1.0.0",
   "main": "index.js",
