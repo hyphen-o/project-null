@@ -1,0 +1,16 @@
+version: '3.9'
+volumes:
+  node_modules:
+  next:
+services:
+  project-null:
+    build:
+      context: ./app
+    tty: true
+    container_name: front
+    ports:
+      - 3000:3000
+    volumes:
+      - ./app:/works
+      - node_modules:/works/node_modules
+      - next:/works/.next

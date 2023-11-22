@@ -1,0 +1,23 @@
+{
+  "parserOptions": {
+    "ecmaFeatures": {
+      "jsx": true
+    },
+    "ecmaVersion": 12,
+    "sourceType": "module"
+  },
+  "rules": {
+      "react/jsx-sort-props": [
+          "warn",
+          {
+            "callbacksLast": true
+          }
+        ],
+      "no-unused-vars": "off"
+  },
+  "extends": [
+    "next/core-web-vitals", 
+    "eslint:recommended", 
+    "prettier"
+  ]
+}
