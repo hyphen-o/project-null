@@ -6,11 +6,11 @@ const Index = () => {
   const initArray = ["", "", "", "", "", "", "", "", "", "", "", "", "", "", "", ""]
 
   const [seatArray, setSeatArray] = useState(initArray)
-  
+
   return (
     <>
-        <WindMill />
-        <SideBar />
+      <WindMill />
+      <SideBar />
     </>
   )
 }
