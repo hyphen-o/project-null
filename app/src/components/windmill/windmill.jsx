@@ -1,12 +1,6 @@
-export const WindMill = () => {
+export const WindMill = ({data}) => {
   return (
-    <div
-      style={{
-        position: "relative",
-        left: "80px",
-        top: "50px",
-      }}
-    >
+    <>
       <div
         style={{
           position: "absolute",
@@ -17,8 +11,8 @@ export const WindMill = () => {
           textAlign: "center",
           transform: "rotate(45deg)",
         }}
-      >
-        岡本
+        >
+        {data[0]}
       </div>
       <div
         style={{
@@ -32,8 +26,8 @@ export const WindMill = () => {
           left: "110px",
           top: "60px",
         }}
-      >
-        岡本
+        >
+        {data[1]}
       </div>
       <div
         style={{
@@ -47,8 +41,8 @@ export const WindMill = () => {
           left: "50px",
           top: "170px",
         }}
-      >
-        岡本
+        >
+        {data[2]}
       </div>
       <div
         style={{
@@ -62,9 +56,9 @@ export const WindMill = () => {
           left: "-60px",
           top: "110px",
         }}
-      >
-        岡本
+        >
+        {data[3]}
       </div>
-    </div>
+    </>
   )
 }

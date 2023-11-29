@@ -1,4 +1,8 @@
-export const SideBar = () => {
+import { CreateNameForm } from "../form"
+import { LotteryButton } from "../button"
+
+export const SideBar = ({ handleClick }) => {
+
   return (
     <>
       <div
@@ -9,9 +13,11 @@ export const SideBar = () => {
           width: "230px",
           padding: "20px",
           borderLeft: "solid 2px #D1D1D1",
+          backgroundColor: "white"
         }}
       >
-        asd
+        <CreateNameForm />
+        <LotteryButton handleClick={handleClick}/>
       </div>
     </>
   )
