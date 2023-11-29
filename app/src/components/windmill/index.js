@@ -1,0 +1,1 @@
+export { WindMill } from "./windmill"
