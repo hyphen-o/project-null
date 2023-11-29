@@ -1,4 +1,4 @@
-export const WindMill = ({data}) => {
+export const WindMill = ({ data }) => {
   return (
     <>
       <div
@@ -11,7 +11,7 @@ export const WindMill = ({data}) => {
           textAlign: "center",
           transform: "rotate(45deg)",
         }}
-        >
+      >
         {data[0]}
       </div>
       <div
@@ -26,7 +26,7 @@ export const WindMill = ({data}) => {
           left: "110px",
           top: "60px",
         }}
-        >
+      >
         {data[1]}
       </div>
       <div
@@ -41,7 +41,7 @@ export const WindMill = ({data}) => {
           left: "50px",
           top: "170px",
         }}
-        >
+      >
         {data[2]}
       </div>
       <div
@@ -56,7 +56,7 @@ export const WindMill = ({data}) => {
           left: "-60px",
           top: "110px",
         }}
-        >
+      >
         {data[3]}
       </div>
     </>

@@ -1,2 +1,2 @@
-export  { AddButton }  from "./add-button"
+export { AddButton } from "./add-button"
 export { LotteryButton } from "./lottery-button"
