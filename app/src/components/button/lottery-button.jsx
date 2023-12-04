@@ -5,7 +5,7 @@ export const LotteryButton = ({ handleClick }) => {
         style={{
           position: "absolute",
           left: "30px",
-          bottom: "70px",
+          bottom: "100px",
           width: "194px",
           height: "39px",
           backgroundColor: "#F58C04",
